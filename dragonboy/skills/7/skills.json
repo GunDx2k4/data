@@ -1,0 +1,3559 @@
+{
+  "VcSkill": 7,
+  "OptionTemplates": [
+    {
+      "Id": 0,
+      "Name": "Tấn công ngoại: +#%"
+    },
+    {
+      "Id": 1,
+      "Name": "Tấn công nội: +#%"
+    },
+    {
+      "Id": 2,
+      "Name": "Hỏa công: +#"
+    },
+    {
+      "Id": 3,
+      "Name": "Băng sát: +#"
+    },
+    {
+      "Id": 4,
+      "Name": "Phong lôi: +#"
+    },
+    {
+      "Id": 5,
+      "Name": "Hỏa công ngoại: +#"
+    },
+    {
+      "Id": 6,
+      "Name": "Băng sát ngoại: +#"
+    },
+    {
+      "Id": 7,
+      "Name": "Phong lôi ngoại: +#"
+    },
+    {
+      "Id": 8,
+      "Name": "Hỏa công nội: +#"
+    },
+    {
+      "Id": 9,
+      "Name": "Băng sát nội: +#"
+    },
+    {
+      "Id": 10,
+      "Name": "Phong lôi nội: +#"
+    },
+    {
+      "Id": 11,
+      "Name": "Tấn công cơ bản: +#%"
+    },
+    {
+      "Id": 12,
+      "Name": "Chính xác: +#"
+    },
+    {
+      "Id": 13,
+      "Name": "Né đòn: +#"
+    },
+    {
+      "Id": 14,
+      "Name": "Chí mạng: +#"
+    },
+    {
+      "Id": 15,
+      "Name": "Phản đòn cận chiến: +#"
+    },
+    {
+      "Id": 16,
+      "Name": "Tốc độ di chuyển: +#"
+    },
+    {
+      "Id": 17,
+      "Name": "Tỉ lệ HP tối đa: +#%"
+    },
+    {
+      "Id": 18,
+      "Name": "Tỉ lệ MP tối đa: +#%"
+    },
+    {
+      "Id": 19,
+      "Name": "Kháng tất cả: +#"
+    },
+    {
+      "Id": 20,
+      "Name": "Kháng hỏa: +#"
+    },
+    {
+      "Id": 21,
+      "Name": "Kháng băng: +#"
+    },
+    {
+      "Id": 22,
+      "Name": "Kháng phong: +#"
+    },
+    {
+      "Id": 23,
+      "Name": "Kháng phản đòn: +#"
+    },
+    {
+      "Id": 24,
+      "Name": "Xác xuất gây bỏng: +#% duy trì 2 giây"
+    },
+    {
+      "Id": 25,
+      "Name": "Xác xuất đóng băng: +#% duy trì 1.5 giây"
+    },
+    {
+      "Id": 26,
+      "Name": "Xác xuất gây choáng: +#% duy trì 1 giây"
+    },
+    {
+      "Id": 27,
+      "Name": "Nữa giây phục hồi HP: +# duy trì 5 giây"
+    },
+    {
+      "Id": 28,
+      "Name": "Hồi phục cho đồng đội, sau khi hồi phục sẽ giúp đồng đội tăng khả năng né tránh: +# duy trì 5 giây"
+    },
+    {
+      "Id": 29,
+      "Name": "Tăng % kinh nghiệm khi đánh quái: +#%"
+    },
+    {
+      "Id": 30,
+      "Name": "Khi Mp lớn hơn 10%, dùng MP hút sát thương: +#% duy trì 90 giây"
+    },
+    {
+      "Id": 31,
+      "Name": "Né tránh hoàn toàn tấn công: +#%"
+    },
+    {
+      "Id": 32,
+      "Name": "Hạ khắc: +#"
+    },
+    {
+      "Id": 33,
+      "Name": "Tương khắc: +#"
+    },
+    {
+      "Id": 34,
+      "Name": "Xác xuất gây bỏng: +#% duy trì 4 giây"
+    },
+    {
+      "Id": 35,
+      "Name": "Xác xuất đóng băng: +#% duy trì 3 giây"
+    },
+    {
+      "Id": 36,
+      "Name": "Xác xuất gây choáng: +#% duy trì 2 giây"
+    },
+    {
+      "Id": 37,
+      "Name": "Giảm thời gian bị bỏng: -0.# giây"
+    },
+    {
+      "Id": 38,
+      "Name": "Giảm thời gian bị đóng băng: -0.# giây"
+    },
+    {
+      "Id": 39,
+      "Name": "Giảm thời gian bị choáng: -0.# giây"
+    },
+    {
+      "Id": 40,
+      "Name": "Giảm 3 giây thời gian bị bỏng: duy trì # giây"
+    },
+    {
+      "Id": 41,
+      "Name": "Giảm 2 giây thời gian bị đóng băng: duy trì # giây"
+    },
+    {
+      "Id": 42,
+      "Name": "Giảm 1 giây thời gian bị choáng: duy trì # giây"
+    },
+    {
+      "Id": 43,
+      "Name": "Nữa giây phục hồi HP cho đồng đội: +# duy trì 5 giây"
+    },
+    {
+      "Id": 44,
+      "Name": "Tăng tỉ lệ Hp cho đồng đội: +#%"
+    },
+    {
+      "Id": 45,
+      "Name": "Tăng kháng tất cả cho mình và đồng đội: +# duy trì 90 giây"
+    },
+    {
+      "Id": 46,
+      "Name": "Tăng tấn công cơ bản cho mình và đồng đội: +#% duy trì 90 giây"
+    },
+    {
+      "Id": 47,
+      "Name": "Giảm 2 giây thời gian bị bỏng cho đồng đội: duy trì # giây"
+    },
+    {
+      "Id": 48,
+      "Name": "Vô hiệu hóa tấn công của quái vật: duy trì +# giây"
+    },
+    {
+      "Id": 49,
+      "Name": "Tạo vật thế thân: duy trì +# giây"
+    },
+    {
+      "Id": 50,
+      "Name": "Biến quái thành thức ăn: tăng +#HP"
+    },
+    {
+      "Id": 51,
+      "Name": "Đốt Hp của quái vật dựa trên tấn công hiện tại: +#% duy trì 30 giây"
+    },
+    {
+      "Id": 52,
+      "Name": "Ẩn thân mỗi nữa giây phục hồi Mp, Hp: +# duy trì 5 giây"
+    },
+    {
+      "Id": 53,
+      "Name": "Tàng hình: duy trì # giây"
+    },
+    {
+      "Id": 54,
+      "Name": "Giảm 1 giây thời gian bị đóng băng cho đồng đội: duy trì # giây"
+    },
+    {
+      "Id": 55,
+      "Name": "Làm cho đối phương không thể di chuyển: duy trì +# giây"
+    },
+    {
+      "Id": 56,
+      "Name": "Mỗi nữa giây giảm trừ 3% Hp đồng thời tăng tấn công cơ bản: +#% duy trì 5 giây"
+    },
+    {
+      "Id": 57,
+      "Name": "Giảm 0.5 giây thời gian bị choáng cho đồng đội: duy trì # giây"
+    },
+    {
+      "Id": 58,
+      "Name": "Hỗ trợ tấn công chiêu cấp 30: +#%"
+    },
+    {
+      "Id": 59,
+      "Name": "Hỗ trợ tấn công chiêu cấp 40: +#%"
+    },
+    {
+      "Id": 60,
+      "Name": "Hỗ trợ tấn công chiêu cấp 50: +#%"
+    },
+    {
+      "Id": 61,
+      "Name": "#"
+    },
+    {
+      "Id": 62,
+      "Name": "# "
+    }
+  ],
+  "Classes": [
+    {
+      "ClassId": 0,
+      "Name": "Chưa vào lớp",
+      "SkillTemplates": [
+        {
+          "Id": 0,
+          "Name": "Chiêu đấm Dragon",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 539,
+          "DamInfo": "Tăng sức đánh: #%",
+          "Description": "Tấn công cận chiến",
+          "Skills": [
+            {
+              "SkillId": 0,
+              "Point": 1,
+              "PowRequire": 1000,
+              "ManaUse": 1,
+              "CoolDown": 500,
+              "Dx": 32,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 0,
+              "MoreInfo": "tại ông nội ngay lúc đầu"
+            },
+            {
+              "SkillId": 1,
+              "Point": 2,
+              "PowRequire": 10000,
+              "ManaUse": 2,
+              "CoolDown": 500,
+              "Dx": 34,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 110,
+              "Price": 10,
+              "MoreInfo": "tại ông nội"
+            },
+            {
+              "SkillId": 2,
+              "Point": 3,
+              "PowRequire": 22000,
+              "ManaUse": 4,
+              "CoolDown": 500,
+              "Dx": 36,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 120,
+              "Price": 50,
+              "MoreInfo": "tại Quy Lão Kame"
+            },
+            {
+              "SkillId": 3,
+              "Point": 4,
+              "PowRequire": 66000,
+              "ManaUse": 8,
+              "CoolDown": 500,
+              "Dx": 38,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 130,
+              "Price": 100,
+              "MoreInfo": "tại Quy Lão Kame"
+            },
+            {
+              "SkillId": 4,
+              "Point": 5,
+              "PowRequire": 200000,
+              "ManaUse": 16,
+              "CoolDown": 500,
+              "Dx": 40,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 140,
+              "Price": 500,
+              "MoreInfo": "tại Quy Lão Kame"
+            },
+            {
+              "SkillId": 5,
+              "Point": 6,
+              "PowRequire": 600000,
+              "ManaUse": 32,
+              "CoolDown": 500,
+              "Dx": 42,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 150,
+              "Price": 1000,
+              "MoreInfo": "tại Quy Lão Kame"
+            },
+            {
+              "SkillId": 6,
+              "Point": 7,
+              "PowRequire": 1800000,
+              "ManaUse": 70,
+              "CoolDown": 500,
+              "Dx": 44,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 160,
+              "Price": 2000,
+              "MoreInfo": "tại Quy Lão Kame"
+            }
+          ]
+        },
+        {
+          "Id": 1,
+          "Name": "Chiêu Kamejoko",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 540,
+          "DamInfo": "Tăng sức đánh: #%",
+          "Description": "Đánh xa nhờ năng lượng",
+          "Skills": [
+            {
+              "SkillId": 7,
+              "Point": 1,
+              "PowRequire": 10000,
+              "ManaUse": 30,
+              "CoolDown": 2000,
+              "Dx": 160,
+              "Dy": 160,
+              "MaxFight": 1,
+              "Damage": 150,
+              "Price": 500,
+              "MoreInfo": "(Kame joko) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 8,
+              "Point": 2,
+              "PowRequire": 20000,
+              "ManaUse": 60,
+              "CoolDown": 2500,
+              "Dx": 170,
+              "Dy": 170,
+              "MaxFight": 1,
+              "Damage": 200,
+              "Price": 1000,
+              "MoreInfo": "(Kame joko) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 9,
+              "Point": 3,
+              "PowRequire": 60000,
+              "ManaUse": 120,
+              "CoolDown": 3000,
+              "Dx": 180,
+              "Dy": 180,
+              "MaxFight": 1,
+              "Damage": 250,
+              "Price": 2000,
+              "MoreInfo": "(Kame joko) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 10,
+              "Point": 4,
+              "PowRequire": 180000,
+              "ManaUse": 240,
+              "CoolDown": 3500,
+              "Dx": 190,
+              "Dy": 190,
+              "MaxFight": 1,
+              "Damage": 300,
+              "Price": 4000,
+              "MoreInfo": "(Kame joko) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 11,
+              "Point": 5,
+              "PowRequire": 540000,
+              "ManaUse": 480,
+              "CoolDown": 4000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 350,
+              "Price": 8000,
+              "MoreInfo": "(Kame joko) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 12,
+              "Point": 6,
+              "PowRequire": 1600000,
+              "ManaUse": 960,
+              "CoolDown": 4500,
+              "Dx": 210,
+              "Dy": 210,
+              "MaxFight": 1,
+              "Damage": 400,
+              "Price": 9999,
+              "MoreInfo": "(Kame joko) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 13,
+              "Point": 7,
+              "PowRequire": 4800000,
+              "ManaUse": 1280,
+              "CoolDown": 5000,
+              "Dx": 220,
+              "Dy": 220,
+              "MaxFight": 1,
+              "Damage": 450,
+              "Price": 9999,
+              "MoreInfo": "(Kame joko) Học tại Sư Phụ"
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Name": "Thái Dương Hạ San",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 717,
+          "DamInfo": "Thời gian tác dụng: # mili giây",
+          "Description": "Làm chói mắt đối phương",
+          "Skills": [
+            {
+              "SkillId": 42,
+              "Point": 1,
+              "PowRequire": 60000,
+              "ManaUse": 45,
+              "CoolDown": 60000,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 3000,
+              "Price": 500,
+              "MoreInfo": "(TDHS 1) Học tại Quy Lão Kame"
+            },
+            {
+              "SkillId": 43,
+              "Point": 2,
+              "PowRequire": 120000,
+              "ManaUse": 40,
+              "CoolDown": 55000,
+              "Dx": 180,
+              "Dy": 180,
+              "MaxFight": 1,
+              "Damage": 4000,
+              "Price": 1000,
+              "MoreInfo": "(TDHS 2) Học tại Quy Lão Kame"
+            },
+            {
+              "SkillId": 44,
+              "Point": 3,
+              "PowRequire": 360000,
+              "ManaUse": 35,
+              "CoolDown": 50000,
+              "Dx": 210,
+              "Dy": 210,
+              "MaxFight": 1,
+              "Damage": 5000,
+              "Price": 2000,
+              "MoreInfo": "(TDHS 3) Học tại Quy Lão Kame"
+            },
+            {
+              "SkillId": 45,
+              "Point": 4,
+              "PowRequire": 1000000,
+              "ManaUse": 30,
+              "CoolDown": 45000,
+              "Dx": 240,
+              "Dy": 240,
+              "MaxFight": 1,
+              "Damage": 6000,
+              "Price": 4000,
+              "MoreInfo": "(TDHS 4) Học tại Thần Vũ Trụ"
+            },
+            {
+              "SkillId": 46,
+              "Point": 5,
+              "PowRequire": 3200000,
+              "ManaUse": 25,
+              "CoolDown": 40000,
+              "Dx": 270,
+              "Dy": 270,
+              "MaxFight": 1,
+              "Damage": 7000,
+              "Price": 8000,
+              "MoreInfo": "(TDHS 5) Học tại Thần Vũ Trụ"
+            },
+            {
+              "SkillId": 47,
+              "Point": 6,
+              "PowRequire": 10000000,
+              "ManaUse": 20,
+              "CoolDown": 35000,
+              "Dx": 300,
+              "Dy": 300,
+              "MaxFight": 1,
+              "Damage": 8000,
+              "Price": 9999,
+              "MoreInfo": "(TDHS 6) Học tại Thần Vũ Trụ"
+            },
+            {
+              "SkillId": 48,
+              "Point": 7,
+              "PowRequire": 30000000,
+              "ManaUse": 15,
+              "CoolDown": 30000,
+              "Dx": 330,
+              "Dy": 330,
+              "MaxFight": 1,
+              "Damage": 9000,
+              "Price": 9999,
+              "MoreInfo": "(TDHS 7) Học tại Thần Vũ Trụ"
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Name": "Kaioken",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 716,
+          "DamInfo": "Tăng sức đánh: #%",
+          "Description": "Tấn công cận chiến, mức sát thương lớn",
+          "Skills": [
+            {
+              "SkillId": 64,
+              "Point": 2,
+              "PowRequire": 200000000,
+              "ManaUse": 13000,
+              "CoolDown": 500,
+              "Dx": 32,
+              "Dy": 32,
+              "MaxFight": 1,
+              "Damage": 170,
+              "Price": 9999,
+              "MoreInfo": "(Kaioken 2)"
+            },
+            {
+              "SkillId": 65,
+              "Point": 3,
+              "PowRequire": 250000000,
+              "ManaUse": 15000,
+              "CoolDown": 500,
+              "Dx": 32,
+              "Dy": 32,
+              "MaxFight": 1,
+              "Damage": 180,
+              "Price": 9999,
+              "MoreInfo": "(Kaioken 3)"
+            },
+            {
+              "SkillId": 66,
+              "Point": 4,
+              "PowRequire": 300000000,
+              "ManaUse": 18000,
+              "CoolDown": 500,
+              "Dx": 32,
+              "Dy": 32,
+              "MaxFight": 1,
+              "Damage": 190,
+              "Price": 9999,
+              "MoreInfo": "(Kaioken 4)"
+            },
+            {
+              "SkillId": 67,
+              "Point": 5,
+              "PowRequire": 350000000,
+              "ManaUse": 21000,
+              "CoolDown": 500,
+              "Dx": 32,
+              "Dy": 32,
+              "MaxFight": 1,
+              "Damage": 200,
+              "Price": 9999,
+              "MoreInfo": "(Kaioken 5)"
+            },
+            {
+              "SkillId": 68,
+              "Point": 6,
+              "PowRequire": 400000000,
+              "ManaUse": 24000,
+              "CoolDown": 500,
+              "Dx": 32,
+              "Dy": 32,
+              "MaxFight": 1,
+              "Damage": 210,
+              "Price": 9999,
+              "MoreInfo": "(Kaioken 6)"
+            },
+            {
+              "SkillId": 69,
+              "Point": 7,
+              "PowRequire": 450000000,
+              "ManaUse": 27000,
+              "CoolDown": 500,
+              "Dx": 32,
+              "Dy": 32,
+              "MaxFight": 1,
+              "Damage": 220,
+              "Price": 9999,
+              "MoreInfo": "(Kaioken 7)"
+            },
+            {
+              "SkillId": 63,
+              "Point": 1,
+              "PowRequire": 150000000,
+              "ManaUse": 9000,
+              "CoolDown": 500,
+              "Dx": 32,
+              "Dy": 32,
+              "MaxFight": 1,
+              "Damage": 160,
+              "Price": 9999,
+              "MoreInfo": "(Kaioken 1)"
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Name": "Quả cầu kênh khi",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 1,
+          "IconId": 711,
+          "DamInfo": "Gây sát thương #%",
+          "Description": "Quả cầu năng lượng có mức sát thương cực lớn",
+          "Skills": [
+            {
+              "SkillId": 70,
+              "Point": 1,
+              "PowRequire": 500000000,
+              "ManaUse": 50,
+              "CoolDown": 360000,
+              "Dx": 300,
+              "Dy": 300,
+              "MaxFight": 1,
+              "Damage": 500,
+              "Price": 9999,
+              "MoreInfo": "(Quả cầu kênh khi 1)"
+            },
+            {
+              "SkillId": 71,
+              "Point": 2,
+              "PowRequire": 600000000,
+              "ManaUse": 55,
+              "CoolDown": 350000,
+              "Dx": 400,
+              "Dy": 400,
+              "MaxFight": 1,
+              "Damage": 600,
+              "Price": 9999,
+              "MoreInfo": "(Quả cầu kênh khi 2)"
+            },
+            {
+              "SkillId": 72,
+              "Point": 3,
+              "PowRequire": 700000000,
+              "ManaUse": 60,
+              "CoolDown": 340000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 700,
+              "Price": 9999,
+              "MoreInfo": "(Quả cầu kênh khi 3)"
+            },
+            {
+              "SkillId": 73,
+              "Point": 4,
+              "PowRequire": 800000000,
+              "ManaUse": 65,
+              "CoolDown": 330000,
+              "Dx": 600,
+              "Dy": 600,
+              "MaxFight": 1,
+              "Damage": 800,
+              "Price": 9999,
+              "MoreInfo": "(Quả cầu kênh khi 4)"
+            },
+            {
+              "SkillId": 74,
+              "Point": 5,
+              "PowRequire": 900000000,
+              "ManaUse": 70,
+              "CoolDown": 320000,
+              "Dx": 700,
+              "Dy": 700,
+              "MaxFight": 1,
+              "Damage": 900,
+              "Price": 9999,
+              "MoreInfo": "(Quả cầu kênh khi 5)"
+            },
+            {
+              "SkillId": 75,
+              "Point": 6,
+              "PowRequire": 1000000000,
+              "ManaUse": 75,
+              "CoolDown": 310000,
+              "Dx": 800,
+              "Dy": 800,
+              "MaxFight": 1,
+              "Damage": 1000,
+              "Price": 9999,
+              "MoreInfo": "(Quả cầu kênh khi 6)"
+            },
+            {
+              "SkillId": 76,
+              "Point": 7,
+              "PowRequire": 1100000000,
+              "ManaUse": 80,
+              "CoolDown": 300000,
+              "Dx": 900,
+              "Dy": 900,
+              "MaxFight": 1,
+              "Damage": 1100,
+              "Price": 9999,
+              "MoreInfo": "(Quả cầu kênh khi 7)"
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Name": "Dịch chuyển tức thời",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 3783,
+          "DamInfo": "Dịch chuyển tức thời và gây choáng kẻ thù",
+          "Description": "Dịch chuyển tức thời",
+          "Skills": [
+            {
+              "SkillId": 128,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 5000,
+              "CoolDown": 20000,
+              "Dx": 5000,
+              "Dy": 5000,
+              "MaxFight": 1,
+              "Damage": 1000,
+              "Price": 9999,
+              "MoreInfo": "Dịch chuyển tức thời"
+            },
+            {
+              "SkillId": 129,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 7000,
+              "CoolDown": 19000,
+              "Dx": 5000,
+              "Dy": 5000,
+              "MaxFight": 1,
+              "Damage": 1500,
+              "Price": 9999,
+              "MoreInfo": "Dịch chuyển tức thời"
+            },
+            {
+              "SkillId": 130,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 10000,
+              "CoolDown": 18000,
+              "Dx": 5000,
+              "Dy": 5000,
+              "MaxFight": 1,
+              "Damage": 2000,
+              "Price": 9999,
+              "MoreInfo": "Dịch chuyển tức thời"
+            },
+            {
+              "SkillId": 131,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 15000,
+              "CoolDown": 17000,
+              "Dx": 5000,
+              "Dy": 5000,
+              "MaxFight": 1,
+              "Damage": 2500,
+              "Price": 9999,
+              "MoreInfo": "Dịch chuyển tức thời"
+            },
+            {
+              "SkillId": 132,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 20000,
+              "CoolDown": 16000,
+              "Dx": 5000,
+              "Dy": 5000,
+              "MaxFight": 1,
+              "Damage": 3000,
+              "Price": 9999,
+              "MoreInfo": "Dịch chuyển tức thời"
+            },
+            {
+              "SkillId": 133,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 25000,
+              "CoolDown": 15000,
+              "Dx": 5000,
+              "Dy": 5000,
+              "MaxFight": 1,
+              "Damage": 3500,
+              "Price": 9999,
+              "MoreInfo": "Dịch chuyển tức thời"
+            },
+            {
+              "SkillId": 134,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 30000,
+              "CoolDown": 14000,
+              "Dx": 5000,
+              "Dy": 5000,
+              "MaxFight": 1,
+              "Damage": 4000,
+              "Price": 9999,
+              "MoreInfo": "Dịch chuyển tức thời"
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Name": "Thôi miên",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 3782,
+          "DamInfo": "Ru ngủ kẻ thù # giây",
+          "Description": "Thôi miên",
+          "Skills": [
+            {
+              "SkillId": 142,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 10000,
+              "CoolDown": 30000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 5,
+              "Price": 9999,
+              "MoreInfo": "Thôi Miên"
+            },
+            {
+              "SkillId": 143,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 10000,
+              "CoolDown": 32000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 6,
+              "Price": 9999,
+              "MoreInfo": "Thôi Miên"
+            },
+            {
+              "SkillId": 144,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 10000,
+              "CoolDown": 34000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 7,
+              "Price": 9999,
+              "MoreInfo": "Thôi Miên"
+            },
+            {
+              "SkillId": 145,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 10000,
+              "CoolDown": 36000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 8,
+              "Price": 9999,
+              "MoreInfo": "Thôi Miên"
+            },
+            {
+              "SkillId": 146,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 10000,
+              "CoolDown": 38000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 9,
+              "Price": 9999,
+              "MoreInfo": "Thôi Miên"
+            },
+            {
+              "SkillId": 147,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 10000,
+              "CoolDown": 40000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 10,
+              "Price": 9999,
+              "MoreInfo": "Thôi Miên"
+            },
+            {
+              "SkillId": 148,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 10000,
+              "CoolDown": 42000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 11,
+              "Price": 9999,
+              "MoreInfo": "Thôi Miên"
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Name": "Super Kamejoko",
+          "MaxPoint": 9,
+          "ManaUseType": 1,
+          "Type": 4,
+          "IconId": 11162,
+          "DamInfo": "Tăng sức đánh: #%",
+          "Description": "Đánh xa nhờ năng lượng",
+          "Skills": [
+            {
+              "SkillId": 156,
+              "Point": 1,
+              "PowRequire": 60000000000,
+              "ManaUse": 80,
+              "CoolDown": 170000,
+              "Dx": 190,
+              "Dy": 25,
+              "MaxFight": 1,
+              "Damage": 550,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 1"
+            },
+            {
+              "SkillId": 157,
+              "Point": 2,
+              "PowRequire": 60000000000,
+              "ManaUse": 75,
+              "CoolDown": 160000,
+              "Dx": 200,
+              "Dy": 30,
+              "MaxFight": 1,
+              "Damage": 600,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 2"
+            },
+            {
+              "SkillId": 158,
+              "Point": 3,
+              "PowRequire": 60000000000,
+              "ManaUse": 70,
+              "CoolDown": 150000,
+              "Dx": 210,
+              "Dy": 35,
+              "MaxFight": 1,
+              "Damage": 650,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 3"
+            },
+            {
+              "SkillId": 159,
+              "Point": 4,
+              "PowRequire": 60000000000,
+              "ManaUse": 65,
+              "CoolDown": 140000,
+              "Dx": 230,
+              "Dy": 40,
+              "MaxFight": 1,
+              "Damage": 700,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 4"
+            },
+            {
+              "SkillId": 160,
+              "Point": 5,
+              "PowRequire": 60000000000,
+              "ManaUse": 60,
+              "CoolDown": 130000,
+              "Dx": 250,
+              "Dy": 45,
+              "MaxFight": 1,
+              "Damage": 750,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 5"
+            },
+            {
+              "SkillId": 161,
+              "Point": 6,
+              "PowRequire": 60000000000,
+              "ManaUse": 55,
+              "CoolDown": 120000,
+              "Dx": 270,
+              "Dy": 50,
+              "MaxFight": 1,
+              "Damage": 800,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 6"
+            },
+            {
+              "SkillId": 162,
+              "Point": 7,
+              "PowRequire": 60000000000,
+              "ManaUse": 50,
+              "CoolDown": 110000,
+              "Dx": 290,
+              "Dy": 55,
+              "MaxFight": 1,
+              "Damage": 850,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 7"
+            },
+            {
+              "SkillId": 163,
+              "Point": 8,
+              "PowRequire": 60000000000,
+              "ManaUse": 45,
+              "CoolDown": 100000,
+              "Dx": 310,
+              "Dy": 60,
+              "MaxFight": 1,
+              "Damage": 900,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 8"
+            },
+            {
+              "SkillId": 164,
+              "Point": 9,
+              "PowRequire": 60000000000,
+              "ManaUse": 40,
+              "CoolDown": 90000,
+              "Dx": 330,
+              "Dy": 65,
+              "MaxFight": 1,
+              "Damage": 950,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 9"
+            },
+            {
+              "SkillId": 165,
+              "Point": 10,
+              "PowRequire": 60000000000,
+              "ManaUse": 35,
+              "CoolDown": 80000,
+              "Dx": 350,
+              "Dy": 70,
+              "MaxFight": 1,
+              "Damage": 1000,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 10"
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Name": "Khiên năng lượng",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 3784,
+          "DamInfo": "Vô hiệu các đòn tấn công",
+          "Description": "Khiên năng lượng",
+          "Skills": [
+            {
+              "SkillId": 121,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 51,
+              "CoolDown": 75000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 15,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 1"
+            },
+            {
+              "SkillId": 122,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 48,
+              "CoolDown": 80000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 20,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 2"
+            },
+            {
+              "SkillId": 123,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 45,
+              "CoolDown": 85000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 25,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 3"
+            },
+            {
+              "SkillId": 124,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 42,
+              "CoolDown": 90000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 30,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 4"
+            },
+            {
+              "SkillId": 125,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 39,
+              "CoolDown": 95000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 35,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 5"
+            },
+            {
+              "SkillId": 126,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 36,
+              "CoolDown": 100000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 40,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 6"
+            },
+            {
+              "SkillId": 127,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 33,
+              "CoolDown": 105000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 45,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ClassId": 1,
+      "Name": "Ninja Kiếm",
+      "SkillTemplates": [
+        {
+          "Id": 2,
+          "Name": "Chiêu đấm Demon",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 539,
+          "DamInfo": "Tăng sức đánh: #%",
+          "Description": "Tấn công cận chiến",
+          "Skills": [
+            {
+              "SkillId": 14,
+              "Point": 1,
+              "PowRequire": 1000,
+              "ManaUse": 1,
+              "CoolDown": 400,
+              "Dx": 24,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 95,
+              "Price": 0,
+              "MoreInfo": "(Đấm Demon 1) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 15,
+              "Point": 2,
+              "PowRequire": 10000,
+              "ManaUse": 2,
+              "CoolDown": 400,
+              "Dx": 26,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 105,
+              "Price": 10,
+              "MoreInfo": "(Đấm Demon 2) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 16,
+              "Point": 3,
+              "PowRequire": 22000,
+              "ManaUse": 4,
+              "CoolDown": 400,
+              "Dx": 28,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 115,
+              "Price": 50,
+              "MoreInfo": "(Đấm Demon 3) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 17,
+              "Point": 4,
+              "PowRequire": 66000,
+              "ManaUse": 8,
+              "CoolDown": 400,
+              "Dx": 30,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 125,
+              "Price": 100,
+              "MoreInfo": "(Đấm Demon 4) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 18,
+              "Point": 5,
+              "PowRequire": 200000,
+              "ManaUse": 16,
+              "CoolDown": 400,
+              "Dx": 32,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 135,
+              "Price": 1000,
+              "MoreInfo": "(Đấm Demon 5) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 19,
+              "Point": 6,
+              "PowRequire": 600000,
+              "ManaUse": 32,
+              "CoolDown": 400,
+              "Dx": 34,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 145,
+              "Price": 2000,
+              "MoreInfo": "(Đấm Demon 6) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 20,
+              "Point": 7,
+              "PowRequire": 1800000,
+              "ManaUse": 70,
+              "CoolDown": 400,
+              "Dx": 36,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 155,
+              "Price": 4000,
+              "MoreInfo": "(Đấm Demon 7) Học tại Sư Phụ"
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Name": "Chiêu Masenko",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 540,
+          "DamInfo": "Tăng sức đánh: #%",
+          "Description": "Đánh xa nhờ năng lượng",
+          "Skills": [
+            {
+              "SkillId": 21,
+              "Point": 1,
+              "PowRequire": 10000,
+              "ManaUse": 8,
+              "CoolDown": 800,
+              "Dx": 140,
+              "Dy": 140,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 500,
+              "MoreInfo": "(Masenko 1) Học tại Sư Phụ sau khi làm nhiệm vụ tìm truyện Doremon"
+            },
+            {
+              "SkillId": 22,
+              "Point": 2,
+              "PowRequire": 20000,
+              "ManaUse": 16,
+              "CoolDown": 790,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 110,
+              "Price": 1000,
+              "MoreInfo": "(Masenko 2) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 23,
+              "Point": 3,
+              "PowRequire": 60000,
+              "ManaUse": 32,
+              "CoolDown": 780,
+              "Dx": 160,
+              "Dy": 160,
+              "MaxFight": 1,
+              "Damage": 120,
+              "Price": 2000,
+              "MoreInfo": "(Masenko 3) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 24,
+              "Point": 4,
+              "PowRequire": 180000,
+              "ManaUse": 64,
+              "CoolDown": 760,
+              "Dx": 170,
+              "Dy": 170,
+              "MaxFight": 1,
+              "Damage": 130,
+              "Price": 4000,
+              "MoreInfo": "(Masenko 4) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 25,
+              "Point": 5,
+              "PowRequire": 540000,
+              "ManaUse": 128,
+              "CoolDown": 740,
+              "Dx": 180,
+              "Dy": 180,
+              "MaxFight": 1,
+              "Damage": 140,
+              "Price": 8000,
+              "MoreInfo": "(Masenko 5) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 26,
+              "Point": 6,
+              "PowRequire": 1600000,
+              "ManaUse": 256,
+              "CoolDown": 720,
+              "Dx": 190,
+              "Dy": 190,
+              "MaxFight": 1,
+              "Damage": 150,
+              "Price": 9999,
+              "MoreInfo": "(Masenko 6) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 27,
+              "Point": 7,
+              "PowRequire": 4800000,
+              "ManaUse": 512,
+              "CoolDown": 700,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 160,
+              "Price": 9999,
+              "MoreInfo": "(Masenko 7) Học tại Sư Phụ"
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Name": "Trị thương",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 2,
+          "IconId": 724,
+          "DamInfo": "Phục hồi #% HP và KI cho đồng đội",
+          "Description": "Phục hồi HP KI cho đồng đội",
+          "Skills": [
+            {
+              "SkillId": 49,
+              "Point": 1,
+              "PowRequire": 60000,
+              "ManaUse": 40,
+              "CoolDown": 30000,
+              "Dx": 100,
+              "Dy": 100,
+              "MaxFight": 1,
+              "Damage": 50,
+              "Price": 500,
+              "MoreInfo": "(Phục hồi Namek 1) Học tại sư phụ"
+            },
+            {
+              "SkillId": 50,
+              "Point": 2,
+              "PowRequire": 120000,
+              "ManaUse": 35,
+              "CoolDown": 32000,
+              "Dx": 105,
+              "Dy": 105,
+              "MaxFight": 1,
+              "Damage": 55,
+              "Price": 1000,
+              "MoreInfo": "(Phục hồi Namek 2) Học tại sư phụ"
+            },
+            {
+              "SkillId": 51,
+              "Point": 3,
+              "PowRequire": 360000,
+              "ManaUse": 30,
+              "CoolDown": 34000,
+              "Dx": 110,
+              "Dy": 110,
+              "MaxFight": 1,
+              "Damage": 60,
+              "Price": 2000,
+              "MoreInfo": "(Phục hồi Namek 3) Học tại sư phụ"
+            },
+            {
+              "SkillId": 52,
+              "Point": 4,
+              "PowRequire": 1000000,
+              "ManaUse": 25,
+              "CoolDown": 38000,
+              "Dx": 115,
+              "Dy": 115,
+              "MaxFight": 1,
+              "Damage": 65,
+              "Price": 4000,
+              "MoreInfo": "(Phục hồi Namek 4) Học tại sư phụ"
+            },
+            {
+              "SkillId": 53,
+              "Point": 5,
+              "PowRequire": 3200000,
+              "ManaUse": 20,
+              "CoolDown": 40000,
+              "Dx": 120,
+              "Dy": 120,
+              "MaxFight": 1,
+              "Damage": 70,
+              "Price": 8000,
+              "MoreInfo": "(Phục hồi Namek 5) Học tại sư phụ"
+            },
+            {
+              "SkillId": 54,
+              "Point": 6,
+              "PowRequire": 10000000,
+              "ManaUse": 15,
+              "CoolDown": 42000,
+              "Dx": 125,
+              "Dy": 125,
+              "MaxFight": 1,
+              "Damage": 75,
+              "Price": 9999,
+              "MoreInfo": "(Phục hồi Namek 6) Học tại sư phụ"
+            },
+            {
+              "SkillId": 55,
+              "Point": 7,
+              "PowRequire": 30000000,
+              "ManaUse": 10,
+              "CoolDown": 44000,
+              "Dx": 130,
+              "Dy": 130,
+              "MaxFight": 1,
+              "Damage": 80,
+              "Price": 9999,
+              "MoreInfo": "(Phục hồi Namek 7) Học tại sư phụ"
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Name": "Makankosappo",
+          "MaxPoint": 7,
+          "ManaUseType": 2,
+          "Type": 1,
+          "IconId": 723,
+          "DamInfo": "Gây sát thương #%",
+          "Description": "Chưởng tia lazer xoắn ốc",
+          "Skills": [
+            {
+              "SkillId": 77,
+              "Point": 1,
+              "PowRequire": 150000000,
+              "ManaUse": 0,
+              "CoolDown": 360000,
+              "Dx": 20000,
+              "Dy": 20000,
+              "MaxFight": 1,
+              "Damage": 70,
+              "Price": 9999,
+              "MoreInfo": "(Makankosappo 1)"
+            },
+            {
+              "SkillId": 78,
+              "Point": 2,
+              "PowRequire": 200000000,
+              "ManaUse": 0,
+              "CoolDown": 350000,
+              "Dx": 20000,
+              "Dy": 20000,
+              "MaxFight": 1,
+              "Damage": 80,
+              "Price": 9999,
+              "MoreInfo": "(Makankosappo 2)"
+            },
+            {
+              "SkillId": 79,
+              "Point": 3,
+              "PowRequire": 250000000,
+              "ManaUse": 0,
+              "CoolDown": 340000,
+              "Dx": 20000,
+              "Dy": 20000,
+              "MaxFight": 1,
+              "Damage": 90,
+              "Price": 9999,
+              "MoreInfo": "(Makankosappo 3)"
+            },
+            {
+              "SkillId": 80,
+              "Point": 4,
+              "PowRequire": 300000000,
+              "ManaUse": 0,
+              "CoolDown": 330000,
+              "Dx": 20000,
+              "Dy": 20000,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 9999,
+              "MoreInfo": "(Makankosappo 4)"
+            },
+            {
+              "SkillId": 81,
+              "Point": 5,
+              "PowRequire": 350000000,
+              "ManaUse": 0,
+              "CoolDown": 320000,
+              "Dx": 20000,
+              "Dy": 20000,
+              "MaxFight": 1,
+              "Damage": 110,
+              "Price": 9999,
+              "MoreInfo": "(Makankosappo 5)"
+            },
+            {
+              "SkillId": 82,
+              "Point": 6,
+              "PowRequire": 400000000,
+              "ManaUse": 0,
+              "CoolDown": 310000,
+              "Dx": 20000,
+              "Dy": 20000,
+              "MaxFight": 1,
+              "Damage": 120,
+              "Price": 9999,
+              "MoreInfo": "(Makankosappo 6)"
+            },
+            {
+              "SkillId": 83,
+              "Point": 7,
+              "PowRequire": 450000000,
+              "ManaUse": 0,
+              "CoolDown": 300000,
+              "Dx": 20000,
+              "Dy": 20000,
+              "MaxFight": 1,
+              "Damage": 130,
+              "Price": 9999,
+              "MoreInfo": "(Makankosappo 7)"
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Name": "Đẻ trứng",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 722,
+          "DamInfo": "Tạo quái đi theo hỗ trợ",
+          "Description": "Đẻ trứng tạo quái vật",
+          "Skills": [
+            {
+              "SkillId": 84,
+              "Point": 1,
+              "PowRequire": 500000000,
+              "ManaUse": 20,
+              "CoolDown": 360000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 50,
+              "Price": 9999,
+              "MoreInfo": "(Đẻ trứng 1)"
+            },
+            {
+              "SkillId": 85,
+              "Point": 2,
+              "PowRequire": 600000000,
+              "ManaUse": 30,
+              "CoolDown": 390000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 55,
+              "Price": 9999,
+              "MoreInfo": "(Đẻ trứng 2)"
+            },
+            {
+              "SkillId": 86,
+              "Point": 3,
+              "PowRequire": 700000000,
+              "ManaUse": 40,
+              "CoolDown": 420000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 60,
+              "Price": 9999,
+              "MoreInfo": "(Đẻ trứng 3)"
+            },
+            {
+              "SkillId": 87,
+              "Point": 4,
+              "PowRequire": 800000000,
+              "ManaUse": 50,
+              "CoolDown": 450000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 65,
+              "Price": 9999,
+              "MoreInfo": "(Đẻ trứng 4)"
+            },
+            {
+              "SkillId": 88,
+              "Point": 5,
+              "PowRequire": 900000000,
+              "ManaUse": 60,
+              "CoolDown": 480000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 70,
+              "Price": 9999,
+              "MoreInfo": "(Đẻ trứng 5)"
+            },
+            {
+              "SkillId": 89,
+              "Point": 6,
+              "PowRequire": 1000000000,
+              "ManaUse": 70,
+              "CoolDown": 510000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 75,
+              "Price": 9999,
+              "MoreInfo": "(Đẻ trứng 6)"
+            },
+            {
+              "SkillId": 90,
+              "Point": 7,
+              "PowRequire": 1100000000,
+              "ManaUse": 80,
+              "CoolDown": 540000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 80,
+              "Price": 9999,
+              "MoreInfo": "(Đẻ trứng 7)"
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Name": "Liên hoàn",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 3778,
+          "DamInfo": "Tăng sức đánh: #%",
+          "Description": "Liên hoàn",
+          "Skills": [
+            {
+              "SkillId": 107,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 100,
+              "CoolDown": 350,
+              "Dx": 30,
+              "Dy": 30,
+              "MaxFight": 1,
+              "Damage": 160,
+              "Price": 9999,
+              "MoreInfo": "(Combo 1)"
+            },
+            {
+              "SkillId": 108,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 200,
+              "CoolDown": 345,
+              "Dx": 35,
+              "Dy": 35,
+              "MaxFight": 1,
+              "Damage": 165,
+              "Price": 9999,
+              "MoreInfo": "(Combo 2)"
+            },
+            {
+              "SkillId": 109,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 300,
+              "CoolDown": 340,
+              "Dx": 40,
+              "Dy": 40,
+              "MaxFight": 1,
+              "Damage": 170,
+              "Price": 9999,
+              "MoreInfo": "(Combo 3)"
+            },
+            {
+              "SkillId": 110,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 400,
+              "CoolDown": 335,
+              "Dx": 45,
+              "Dy": 45,
+              "MaxFight": 1,
+              "Damage": 175,
+              "Price": 9999,
+              "MoreInfo": "(Combo 4)"
+            },
+            {
+              "SkillId": 111,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 500,
+              "CoolDown": 330,
+              "Dx": 50,
+              "Dy": 50,
+              "MaxFight": 1,
+              "Damage": 180,
+              "Price": 9999,
+              "MoreInfo": "(Combo 5)"
+            },
+            {
+              "SkillId": 112,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 600,
+              "CoolDown": 335,
+              "Dx": 55,
+              "Dy": 55,
+              "MaxFight": 1,
+              "Damage": 185,
+              "Price": 9999,
+              "MoreInfo": "(Combo 6)"
+            },
+            {
+              "SkillId": 113,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 700,
+              "CoolDown": 330,
+              "Dx": 60,
+              "Dy": 60,
+              "MaxFight": 1,
+              "Damage": 190,
+              "Price": 9999,
+              "MoreInfo": "(Combo 7)"
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Name": "Biến Sôcôla",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 1,
+          "IconId": 3780,
+          "DamInfo": "Biến quái thành Sôcôla",
+          "Description": "Biến socola",
+          "Skills": [
+            {
+              "SkillId": 114,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 22,
+              "CoolDown": 30000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 15,
+              "Price": 9999,
+              "MoreInfo": "Biến Sôcôla 1"
+            },
+            {
+              "SkillId": 115,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 20,
+              "CoolDown": 29000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 17,
+              "Price": 9999,
+              "MoreInfo": "Biến Sôcôla 2"
+            },
+            {
+              "SkillId": 116,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 18,
+              "CoolDown": 28000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 19,
+              "Price": 9999,
+              "MoreInfo": "Biến Sôcôla 3"
+            },
+            {
+              "SkillId": 117,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 16,
+              "CoolDown": 27000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 21,
+              "Price": 9999,
+              "MoreInfo": "Biến Sôcôla 4"
+            },
+            {
+              "SkillId": 118,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 14,
+              "CoolDown": 26000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 23,
+              "Price": 9999,
+              "MoreInfo": "Biến Sôcôla 5"
+            },
+            {
+              "SkillId": 119,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 12,
+              "CoolDown": 25000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 25,
+              "Price": 9999,
+              "MoreInfo": "Biến Sôcôla 6"
+            },
+            {
+              "SkillId": 120,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 10,
+              "CoolDown": 24000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 27,
+              "Price": 9999,
+              "MoreInfo": "Biến Sôcôla 7"
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Name": "Ma phong ba",
+          "MaxPoint": 9,
+          "ManaUseType": 1,
+          "Type": 4,
+          "IconId": 11194,
+          "DamInfo": "Gây sát thương chuẩn mỗi giây bằng #% max HP bản thân",
+          "Description": "Nhốt đối thủ vào bình chứa",
+          "Skills": [
+            {
+              "SkillId": 176,
+              "Point": 1,
+              "PowRequire": 60000000000,
+              "ManaUse": 80,
+              "CoolDown": 170000,
+              "Dx": 120,
+              "Dy": 120,
+              "MaxFight": 1,
+              "Damage": 1,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 1"
+            },
+            {
+              "SkillId": 177,
+              "Point": 2,
+              "PowRequire": 60000000000,
+              "ManaUse": 75,
+              "CoolDown": 160000,
+              "Dx": 130,
+              "Dy": 130,
+              "MaxFight": 1,
+              "Damage": 2,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 2"
+            },
+            {
+              "SkillId": 178,
+              "Point": 3,
+              "PowRequire": 60000000000,
+              "ManaUse": 70,
+              "CoolDown": 150000,
+              "Dx": 140,
+              "Dy": 140,
+              "MaxFight": 1,
+              "Damage": 3,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 3"
+            },
+            {
+              "SkillId": 179,
+              "Point": 4,
+              "PowRequire": 60000000000,
+              "ManaUse": 65,
+              "CoolDown": 140000,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 4,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 4"
+            },
+            {
+              "SkillId": 180,
+              "Point": 5,
+              "PowRequire": 60000000000,
+              "ManaUse": 60,
+              "CoolDown": 130000,
+              "Dx": 160,
+              "Dy": 160,
+              "MaxFight": 1,
+              "Damage": 5,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 5"
+            },
+            {
+              "SkillId": 181,
+              "Point": 6,
+              "PowRequire": 60000000000,
+              "ManaUse": 55,
+              "CoolDown": 120000,
+              "Dx": 170,
+              "Dy": 170,
+              "MaxFight": 1,
+              "Damage": 6,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 6"
+            },
+            {
+              "SkillId": 182,
+              "Point": 7,
+              "PowRequire": 60000000000,
+              "ManaUse": 50,
+              "CoolDown": 110000,
+              "Dx": 180,
+              "Dy": 180,
+              "MaxFight": 1,
+              "Damage": 7,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 7"
+            },
+            {
+              "SkillId": 183,
+              "Point": 8,
+              "PowRequire": 60000000000,
+              "ManaUse": 45,
+              "CoolDown": 100000,
+              "Dx": 190,
+              "Dy": 190,
+              "MaxFight": 1,
+              "Damage": 8,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 8"
+            },
+            {
+              "SkillId": 184,
+              "Point": 9,
+              "PowRequire": 60000000000,
+              "ManaUse": 40,
+              "CoolDown": 90000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 9,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 9"
+            },
+            {
+              "SkillId": 185,
+              "Point": 10,
+              "PowRequire": 60000000000,
+              "ManaUse": 35,
+              "CoolDown": 80000,
+              "Dx": 210,
+              "Dy": 210,
+              "MaxFight": 1,
+              "Damage": 10,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 10"
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Name": "Khiên năng lượng",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 3784,
+          "DamInfo": "Vô hiệu các đòn tấn công",
+          "Description": "Khiên năng lượng",
+          "Skills": [
+            {
+              "SkillId": 121,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 51,
+              "CoolDown": 75000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 15,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 1"
+            },
+            {
+              "SkillId": 122,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 48,
+              "CoolDown": 80000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 20,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 2"
+            },
+            {
+              "SkillId": 123,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 45,
+              "CoolDown": 85000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 25,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 3"
+            },
+            {
+              "SkillId": 124,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 42,
+              "CoolDown": 90000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 30,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 4"
+            },
+            {
+              "SkillId": 125,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 39,
+              "CoolDown": 95000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 35,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 5"
+            },
+            {
+              "SkillId": 126,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 36,
+              "CoolDown": 100000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 40,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 6"
+            },
+            {
+              "SkillId": 127,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 33,
+              "CoolDown": 105000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 45,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ClassId": 2,
+      "Name": "Ninja Phi Tiêu",
+      "SkillTemplates": [
+        {
+          "Id": 4,
+          "Name": "Chiêu đấm Galick",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 539,
+          "DamInfo": "Tăng sức đánh: #%",
+          "Description": "Tấn công cận chiến",
+          "Skills": [
+            {
+              "SkillId": 28,
+              "Point": 1,
+              "PowRequire": 1000,
+              "ManaUse": 1,
+              "CoolDown": 500,
+              "Dx": 36,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 110,
+              "Price": 0,
+              "MoreInfo": "(Đấm Galick 1) Học tại ông nội ngay lúc đầu"
+            },
+            {
+              "SkillId": 29,
+              "Point": 2,
+              "PowRequire": 10000,
+              "ManaUse": 2,
+              "CoolDown": 500,
+              "Dx": 37,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 120,
+              "Price": 10,
+              "MoreInfo": "(Đấm Galick 2) Sau khi làm nhiệm vụ tiêu diệt Heo Rừng sẽ học được tại ông nội"
+            },
+            {
+              "SkillId": 30,
+              "Point": 3,
+              "PowRequire": 22000,
+              "ManaUse": 4,
+              "CoolDown": 500,
+              "Dx": 38,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 130,
+              "Price": 50,
+              "MoreInfo": "(Đấm Galick 3) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 31,
+              "Point": 4,
+              "PowRequire": 66000,
+              "ManaUse": 8,
+              "CoolDown": 500,
+              "Dx": 39,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 140,
+              "Price": 100,
+              "MoreInfo": "(Đấm Galick 4) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 32,
+              "Point": 5,
+              "PowRequire": 200000,
+              "ManaUse": 16,
+              "CoolDown": 500,
+              "Dx": 40,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 150,
+              "Price": 1000,
+              "MoreInfo": "(Đấm Galick 5) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 33,
+              "Point": 6,
+              "PowRequire": 600000,
+              "ManaUse": 32,
+              "CoolDown": 500,
+              "Dx": 41,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 160,
+              "Price": 2000,
+              "MoreInfo": "(Đấm Galick 6) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 34,
+              "Point": 7,
+              "PowRequire": 1800000,
+              "ManaUse": 70,
+              "CoolDown": 500,
+              "Dx": 42,
+              "Dy": 18,
+              "MaxFight": 1,
+              "Damage": 170,
+              "Price": 4000,
+              "MoreInfo": "(Đấm Galick 7) Học tại Sư Phụ"
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Name": "Chiêu Antomic",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 540,
+          "DamInfo": "Tăng sức đánh: #%",
+          "Description": "Đánh xa nhờ năng lượng",
+          "Skills": [
+            {
+              "SkillId": 35,
+              "Point": 1,
+              "PowRequire": 10000,
+              "ManaUse": 18,
+              "CoolDown": 1000,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 110,
+              "Price": 500,
+              "MoreInfo": "(Antomic 1) Học tại Sư Phụ sau khi làm nhiệm vụ tìm truyện Doremon"
+            },
+            {
+              "SkillId": 36,
+              "Point": 2,
+              "PowRequire": 20000,
+              "ManaUse": 34,
+              "CoolDown": 1200,
+              "Dx": 160,
+              "Dy": 160,
+              "MaxFight": 1,
+              "Damage": 140,
+              "Price": 1000,
+              "MoreInfo": "(Antomic 2) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 37,
+              "Point": 3,
+              "PowRequire": 60000,
+              "ManaUse": 68,
+              "CoolDown": 1400,
+              "Dx": 170,
+              "Dy": 170,
+              "MaxFight": 1,
+              "Damage": 170,
+              "Price": 2000,
+              "MoreInfo": "(Antomic 3) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 38,
+              "Point": 4,
+              "PowRequire": 180000,
+              "ManaUse": 136,
+              "CoolDown": 1600,
+              "Dx": 180,
+              "Dy": 180,
+              "MaxFight": 1,
+              "Damage": 200,
+              "Price": 4000,
+              "MoreInfo": "(Antomic 4) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 39,
+              "Point": 5,
+              "PowRequire": 540000,
+              "ManaUse": 258,
+              "CoolDown": 1800,
+              "Dx": 190,
+              "Dy": 190,
+              "MaxFight": 1,
+              "Damage": 230,
+              "Price": 8000,
+              "MoreInfo": "(Antomic 5) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 40,
+              "Point": 6,
+              "PowRequire": 1600000,
+              "ManaUse": 514,
+              "CoolDown": 2000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 260,
+              "Price": 9999,
+              "MoreInfo": "(Antomic 6) Học tại Sư Phụ"
+            },
+            {
+              "SkillId": 41,
+              "Point": 7,
+              "PowRequire": 4800000,
+              "ManaUse": 1026,
+              "CoolDown": 2200,
+              "Dx": 210,
+              "Dy": 210,
+              "MaxFight": 1,
+              "Damage": 290,
+              "Price": 9999,
+              "MoreInfo": "(Antomic 7) Học tại Sư Phụ"
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Name": "Tái tạo năng lượng",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 720,
+          "DamInfo": "Tự tái tạo HP MP #%/s",
+          "Description": "Tái tạo lại HP và MP đang có",
+          "Skills": [
+            {
+              "SkillId": 56,
+              "Point": 1,
+              "PowRequire": 60000,
+              "ManaUse": 0,
+              "CoolDown": 55000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 4,
+              "Price": 500,
+              "MoreInfo": "(Tái tạo Xayda 1) Học tại sư phụ"
+            },
+            {
+              "SkillId": 57,
+              "Point": 2,
+              "PowRequire": 120000,
+              "ManaUse": 0,
+              "CoolDown": 50000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 5,
+              "Price": 1000,
+              "MoreInfo": "(Tái tạo Xayda 2) Học tại sư phụ"
+            },
+            {
+              "SkillId": 58,
+              "Point": 3,
+              "PowRequire": 360000,
+              "ManaUse": 0,
+              "CoolDown": 45000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 6,
+              "Price": 2000,
+              "MoreInfo": "(Tái tạo Xayda 3) Học tại sư phụ"
+            },
+            {
+              "SkillId": 59,
+              "Point": 4,
+              "PowRequire": 1000000,
+              "ManaUse": 0,
+              "CoolDown": 40000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 7,
+              "Price": 4000,
+              "MoreInfo": "(Tái tạo Xayda 4) Học tại sư phụ"
+            },
+            {
+              "SkillId": 60,
+              "Point": 5,
+              "PowRequire": 3200000,
+              "ManaUse": 0,
+              "CoolDown": 35000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 8,
+              "Price": 8000,
+              "MoreInfo": "(Tái tạo Xayda 5) Học tại sư phụ"
+            },
+            {
+              "SkillId": 61,
+              "Point": 6,
+              "PowRequire": 10000000,
+              "ManaUse": 0,
+              "CoolDown": 30000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 9,
+              "Price": 9999,
+              "MoreInfo": "(Tái tạo Xayda 6) Học tại sư phụ"
+            },
+            {
+              "SkillId": 62,
+              "Point": 7,
+              "PowRequire": 30000000,
+              "ManaUse": 0,
+              "CoolDown": 25000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 10,
+              "Price": 9999,
+              "MoreInfo": "(Tái tạo Xayda 7) Học tại sư phụ"
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Name": "Biến hình",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 718,
+          "DamInfo": "Tăng sức đánh, HP và tốc độ",
+          "Description": "Biến hình thành khỉ",
+          "Skills": [
+            {
+              "SkillId": 91,
+              "Point": 1,
+              "PowRequire": 250000000,
+              "ManaUse": 10,
+              "CoolDown": 300000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 9999,
+              "MoreInfo": "(Biến hình 1)"
+            },
+            {
+              "SkillId": 92,
+              "Point": 2,
+              "PowRequire": 350000000,
+              "ManaUse": 10,
+              "CoolDown": 310000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 9999,
+              "MoreInfo": "(Biến hình 2)"
+            },
+            {
+              "SkillId": 93,
+              "Point": 3,
+              "PowRequire": 450000000,
+              "ManaUse": 10,
+              "CoolDown": 320000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 9999,
+              "MoreInfo": "(Biến hình 3)"
+            },
+            {
+              "SkillId": 94,
+              "Point": 4,
+              "PowRequire": 550000000,
+              "ManaUse": 10,
+              "CoolDown": 330000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 9999,
+              "MoreInfo": "(Biến hình 4)"
+            },
+            {
+              "SkillId": 95,
+              "Point": 5,
+              "PowRequire": 650000000,
+              "ManaUse": 10,
+              "CoolDown": 340000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 9999,
+              "MoreInfo": "(Biến hình 5)"
+            },
+            {
+              "SkillId": 96,
+              "Point": 6,
+              "PowRequire": 750000000,
+              "ManaUse": 10,
+              "CoolDown": 350000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 9999,
+              "MoreInfo": "(Biến hình 6)"
+            },
+            {
+              "SkillId": 97,
+              "Point": 7,
+              "PowRequire": 850000000,
+              "ManaUse": 10,
+              "CoolDown": 360000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 9999,
+              "MoreInfo": "(Biến hình 7)"
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Name": "Tự phát nổ",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 2248,
+          "DamInfo": "Hy sinh, gây sát thương lớn cho kẻ thù",
+          "Description": "Tự phát nổ",
+          "Skills": [
+            {
+              "SkillId": 98,
+              "Point": 1,
+              "PowRequire": 250000000,
+              "ManaUse": 50,
+              "CoolDown": 120000,
+              "Dx": 200,
+              "Dy": 200,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 9999,
+              "MoreInfo": "(Tự phát nổ 1)"
+            },
+            {
+              "SkillId": 99,
+              "Point": 2,
+              "PowRequire": 300000000,
+              "ManaUse": 50,
+              "CoolDown": 120000,
+              "Dx": 300,
+              "Dy": 300,
+              "MaxFight": 1,
+              "Damage": 105,
+              "Price": 9999,
+              "MoreInfo": "(Tự phát nổ 2)"
+            },
+            {
+              "SkillId": 100,
+              "Point": 3,
+              "PowRequire": 350000000,
+              "ManaUse": 50,
+              "CoolDown": 120000,
+              "Dx": 400,
+              "Dy": 400,
+              "MaxFight": 1,
+              "Damage": 110,
+              "Price": 9999,
+              "MoreInfo": "(Tự phát nổ 3)"
+            },
+            {
+              "SkillId": 101,
+              "Point": 4,
+              "PowRequire": 400000000,
+              "ManaUse": 50,
+              "CoolDown": 120000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 115,
+              "Price": 9999,
+              "MoreInfo": "(Tự phát nổ 4)"
+            },
+            {
+              "SkillId": 102,
+              "Point": 5,
+              "PowRequire": 450000000,
+              "ManaUse": 50,
+              "CoolDown": 120000,
+              "Dx": 600,
+              "Dy": 600,
+              "MaxFight": 1,
+              "Damage": 120,
+              "Price": 9999,
+              "MoreInfo": "(Tự phát nổ 5)"
+            },
+            {
+              "SkillId": 103,
+              "Point": 6,
+              "PowRequire": 500000000,
+              "ManaUse": 50,
+              "CoolDown": 120000,
+              "Dx": 700,
+              "Dy": 700,
+              "MaxFight": 1,
+              "Damage": 125,
+              "Price": 9999,
+              "MoreInfo": "(Tự phát nổ 6)"
+            },
+            {
+              "SkillId": 104,
+              "Point": 7,
+              "PowRequire": 550000000,
+              "ManaUse": 50,
+              "CoolDown": 120000,
+              "Dx": 900,
+              "Dy": 900,
+              "MaxFight": 1,
+              "Damage": 130,
+              "Price": 9999,
+              "MoreInfo": "(Tự phát nổ 7)"
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Name": "Huýt sáo",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 3,
+          "IconId": 3781,
+          "DamInfo": "Tăng tạm thời +#%HP cho mọi người xung quanh và +1 đòn chí mạng",
+          "Description": "Huýt sáo",
+          "Skills": [
+            {
+              "SkillId": 135,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 50,
+              "CoolDown": 210000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 40,
+              "Price": 9999,
+              "MoreInfo": "Huýt sáo"
+            },
+            {
+              "SkillId": 136,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 45,
+              "CoolDown": 205000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 50,
+              "Price": 9999,
+              "MoreInfo": "Huýt sáo"
+            },
+            {
+              "SkillId": 137,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 40,
+              "CoolDown": 200000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 60,
+              "Price": 9999,
+              "MoreInfo": "Huýt sáo"
+            },
+            {
+              "SkillId": 138,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 35,
+              "CoolDown": 195000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 70,
+              "Price": 9999,
+              "MoreInfo": "Huýt sáo"
+            },
+            {
+              "SkillId": 139,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 30,
+              "CoolDown": 190000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 80,
+              "Price": 9999,
+              "MoreInfo": "Huýt sáo"
+            },
+            {
+              "SkillId": 140,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 25,
+              "CoolDown": 185000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 90,
+              "Price": 9999,
+              "MoreInfo": "Huýt sáo"
+            },
+            {
+              "SkillId": 141,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 20,
+              "CoolDown": 180000,
+              "Dx": 500,
+              "Dy": 500,
+              "MaxFight": 1,
+              "Damage": 100,
+              "Price": 9999,
+              "MoreInfo": "Huýt sáo"
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Name": "Trói",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 1,
+          "IconId": 3779,
+          "DamInfo": "Trói kẻ thù",
+          "Description": "Trói",
+          "Skills": [
+            {
+              "SkillId": 149,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 5000,
+              "CoolDown": 15000,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 5,
+              "Price": 9999,
+              "MoreInfo": "Trói"
+            },
+            {
+              "SkillId": 150,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 10000,
+              "CoolDown": 20000,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 10,
+              "Price": 9999,
+              "MoreInfo": "Trói"
+            },
+            {
+              "SkillId": 151,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 15000,
+              "CoolDown": 25000,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 15,
+              "Price": 9999,
+              "MoreInfo": "Trói"
+            },
+            {
+              "SkillId": 152,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 20000,
+              "CoolDown": 30000,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 20,
+              "Price": 9999,
+              "MoreInfo": "Trói"
+            },
+            {
+              "SkillId": 153,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 25000,
+              "CoolDown": 35000,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 25,
+              "Price": 9999,
+              "MoreInfo": "Trói"
+            },
+            {
+              "SkillId": 154,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 30000,
+              "CoolDown": 40000,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 30,
+              "Price": 9999,
+              "MoreInfo": "Trói"
+            },
+            {
+              "SkillId": 155,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 32000,
+              "CoolDown": 45000,
+              "Dx": 150,
+              "Dy": 150,
+              "MaxFight": 1,
+              "Damage": 35,
+              "Price": 9999,
+              "MoreInfo": "Trói"
+            }
+          ]
+        },
+        {
+          "Id": 25,
+          "Name": "Cađíc liên hoàn chưởng",
+          "MaxPoint": 9,
+          "ManaUseType": 1,
+          "Type": 4,
+          "IconId": 11193,
+          "DamInfo": "Tăng sức đánh: #%",
+          "Description": "Đánh xa nhờ năng lượng",
+          "Skills": [
+            {
+              "SkillId": 166,
+              "Point": 1,
+              "PowRequire": 60000000000,
+              "ManaUse": 80,
+              "CoolDown": 170000,
+              "Dx": 83,
+              "Dy": 83,
+              "MaxFight": 1,
+              "Damage": 550,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 1"
+            },
+            {
+              "SkillId": 167,
+              "Point": 2,
+              "PowRequire": 60000000000,
+              "ManaUse": 75,
+              "CoolDown": 160000,
+              "Dx": 95,
+              "Dy": 95,
+              "MaxFight": 1,
+              "Damage": 600,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 2"
+            },
+            {
+              "SkillId": 168,
+              "Point": 3,
+              "PowRequire": 60000000000,
+              "ManaUse": 70,
+              "CoolDown": 150000,
+              "Dx": 107,
+              "Dy": 107,
+              "MaxFight": 1,
+              "Damage": 650,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 3"
+            },
+            {
+              "SkillId": 169,
+              "Point": 4,
+              "PowRequire": 60000000000,
+              "ManaUse": 65,
+              "CoolDown": 140000,
+              "Dx": 119,
+              "Dy": 119,
+              "MaxFight": 1,
+              "Damage": 700,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 4"
+            },
+            {
+              "SkillId": 170,
+              "Point": 5,
+              "PowRequire": 60000000000,
+              "ManaUse": 60,
+              "CoolDown": 130000,
+              "Dx": 130,
+              "Dy": 130,
+              "MaxFight": 1,
+              "Damage": 750,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 5"
+            },
+            {
+              "SkillId": 171,
+              "Point": 6,
+              "PowRequire": 60000000000,
+              "ManaUse": 55,
+              "CoolDown": 120000,
+              "Dx": 142,
+              "Dy": 142,
+              "MaxFight": 1,
+              "Damage": 800,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 6"
+            },
+            {
+              "SkillId": 172,
+              "Point": 7,
+              "PowRequire": 60000000000,
+              "ManaUse": 50,
+              "CoolDown": 110000,
+              "Dx": 154,
+              "Dy": 154,
+              "MaxFight": 1,
+              "Damage": 850,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 7"
+            },
+            {
+              "SkillId": 173,
+              "Point": 8,
+              "PowRequire": 60000000000,
+              "ManaUse": 45,
+              "CoolDown": 100000,
+              "Dx": 165,
+              "Dy": 165,
+              "MaxFight": 1,
+              "Damage": 900,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 8"
+            },
+            {
+              "SkillId": 174,
+              "Point": 9,
+              "PowRequire": 60000000000,
+              "ManaUse": 40,
+              "CoolDown": 90000,
+              "Dx": 177,
+              "Dy": 177,
+              "MaxFight": 1,
+              "Damage": 950,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 9"
+            },
+            {
+              "SkillId": 175,
+              "Point": 10,
+              "PowRequire": 60000000000,
+              "ManaUse": 35,
+              "CoolDown": 80000,
+              "Dx": 188,
+              "Dy": 188,
+              "MaxFight": 1,
+              "Damage": 1000,
+              "Price": 9999,
+              "MoreInfo": "Chưởng 10"
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Name": "Khiên năng lượng",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 3784,
+          "DamInfo": "Vô hiệu các đòn tấn công",
+          "Description": "Khiên năng lượng",
+          "Skills": [
+            {
+              "SkillId": 121,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 51,
+              "CoolDown": 75000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 15,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 1"
+            },
+            {
+              "SkillId": 122,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 48,
+              "CoolDown": 80000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 20,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 2"
+            },
+            {
+              "SkillId": 123,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 45,
+              "CoolDown": 85000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 25,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 3"
+            },
+            {
+              "SkillId": 124,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 42,
+              "CoolDown": 90000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 30,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 4"
+            },
+            {
+              "SkillId": 125,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 39,
+              "CoolDown": 95000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 35,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 5"
+            },
+            {
+              "SkillId": 126,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 36,
+              "CoolDown": 100000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 40,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 6"
+            },
+            {
+              "SkillId": 127,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 33,
+              "CoolDown": 105000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 45,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ClassId": 3,
+      "Name": "Ninja Kunai",
+      "SkillTemplates": [
+        {
+          "Id": 19,
+          "Name": "Khiên năng lượng",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 3784,
+          "DamInfo": "Vô hiệu các đòn tấn công",
+          "Description": "Khiên năng lượng",
+          "Skills": [
+            {
+              "SkillId": 121,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 51,
+              "CoolDown": 75000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 15,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 1"
+            },
+            {
+              "SkillId": 122,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 48,
+              "CoolDown": 80000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 20,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 2"
+            },
+            {
+              "SkillId": 123,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 45,
+              "CoolDown": 85000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 25,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 3"
+            },
+            {
+              "SkillId": 124,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 42,
+              "CoolDown": 90000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 30,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 4"
+            },
+            {
+              "SkillId": 125,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 39,
+              "CoolDown": 95000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 35,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 5"
+            },
+            {
+              "SkillId": 126,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 36,
+              "CoolDown": 100000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 40,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 6"
+            },
+            {
+              "SkillId": 127,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 33,
+              "CoolDown": 105000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 45,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ClassId": 4,
+      "Name": "Ninja Cung",
+      "SkillTemplates": [
+        {
+          "Id": 15,
+          "Name": "Danh",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 0,
+          "IconId": 0,
+          "DamInfo": "Danh",
+          "Description": "Danh",
+          "Skills": [
+            {
+              "SkillId": 105,
+              "Point": 0,
+              "PowRequire": 0,
+              "ManaUse": 0,
+              "CoolDown": 0,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 0,
+              "Price": 0,
+              "MoreInfo": "a"
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Name": "Chuong",
+          "MaxPoint": 7,
+          "ManaUseType": 0,
+          "Type": 0,
+          "IconId": 0,
+          "DamInfo": "Chuong",
+          "Description": "Chuong",
+          "Skills": [
+            {
+              "SkillId": 106,
+              "Point": 0,
+              "PowRequire": 0,
+              "ManaUse": 0,
+              "CoolDown": 0,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 0,
+              "Price": 0,
+              "MoreInfo": "a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ClassId": 5,
+      "Name": "Ninja Đao",
+      "SkillTemplates": [
+        {
+          "Id": 19,
+          "Name": "Khiên năng lượng",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 3784,
+          "DamInfo": "Vô hiệu các đòn tấn công",
+          "Description": "Khiên năng lượng",
+          "Skills": [
+            {
+              "SkillId": 121,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 51,
+              "CoolDown": 75000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 15,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 1"
+            },
+            {
+              "SkillId": 122,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 48,
+              "CoolDown": 80000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 20,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 2"
+            },
+            {
+              "SkillId": 123,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 45,
+              "CoolDown": 85000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 25,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 3"
+            },
+            {
+              "SkillId": 124,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 42,
+              "CoolDown": 90000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 30,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 4"
+            },
+            {
+              "SkillId": 125,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 39,
+              "CoolDown": 95000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 35,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 5"
+            },
+            {
+              "SkillId": 126,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 36,
+              "CoolDown": 100000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 40,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 6"
+            },
+            {
+              "SkillId": 127,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 33,
+              "CoolDown": 105000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 45,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ClassId": 6,
+      "Name": "Ninja Quạt",
+      "SkillTemplates": [
+        {
+          "Id": 19,
+          "Name": "Khiên năng lượng",
+          "MaxPoint": 7,
+          "ManaUseType": 1,
+          "Type": 3,
+          "IconId": 3784,
+          "DamInfo": "Vô hiệu các đòn tấn công",
+          "Description": "Khiên năng lượng",
+          "Skills": [
+            {
+              "SkillId": 121,
+              "Point": 1,
+              "PowRequire": 10000000,
+              "ManaUse": 51,
+              "CoolDown": 75000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 15,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 1"
+            },
+            {
+              "SkillId": 122,
+              "Point": 2,
+              "PowRequire": 25000000,
+              "ManaUse": 48,
+              "CoolDown": 80000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 20,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 2"
+            },
+            {
+              "SkillId": 123,
+              "Point": 3,
+              "PowRequire": 50000000,
+              "ManaUse": 45,
+              "CoolDown": 85000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 25,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 3"
+            },
+            {
+              "SkillId": 124,
+              "Point": 4,
+              "PowRequire": 125000000,
+              "ManaUse": 42,
+              "CoolDown": 90000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 30,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 4"
+            },
+            {
+              "SkillId": 125,
+              "Point": 5,
+              "PowRequire": 625000000,
+              "ManaUse": 39,
+              "CoolDown": 95000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 35,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 5"
+            },
+            {
+              "SkillId": 126,
+              "Point": 6,
+              "PowRequire": 3125000000,
+              "ManaUse": 36,
+              "CoolDown": 100000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 40,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 6"
+            },
+            {
+              "SkillId": 127,
+              "Point": 7,
+              "PowRequire": 15625000000,
+              "ManaUse": 33,
+              "CoolDown": 105000,
+              "Dx": 0,
+              "Dy": 0,
+              "MaxFight": 1,
+              "Damage": 45,
+              "Price": 9999,
+              "MoreInfo": "Khiên năng lượng 7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "RawData": "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"
+}
