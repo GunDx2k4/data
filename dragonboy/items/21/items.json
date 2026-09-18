@@ -24925,7 +24925,7 @@
   },
   {
     "id": 2077,
-    "name": "Pet Cừu đen",
+    "name": "Pet Cừu không mập",
     "type": 18,
     "gender": 3,
     "description": "Vật phẩm sự kiện",
@@ -25017,6 +25017,102 @@
     "strRequire": 0,
     "iconId": 17530,
     "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2085,
+    "name": "Cải Trang Bunma bụi",
+    "type": 5,
+    "gender": 3,
+    "description": "Vật phẩm sự kiện",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17604,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2086,
+    "name": "Cải Trang Póc đường phố",
+    "type": 5,
+    "gender": 3,
+    "description": "Vật phẩm sự kiện",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17666,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2087,
+    "name": "Trăng khuyết",
+    "type": 27,
+    "gender": 3,
+    "description": "Vật phẩm đua top",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17636,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2088,
+    "name": "Trăng tròn",
+    "type": 27,
+    "gender": 3,
+    "description": "Vật phẩm đua top",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17635,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2089,
+    "name": "Mảnh thẻ VIP",
+    "type": 27,
+    "gender": 3,
+    "description": "Vật phẩm đua top",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17638,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2090,
+    "name": "Hộp nâng cấp đồ thiên sứ",
+    "type": 27,
+    "gender": 3,
+    "description": "Vật phẩm đua top",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17637,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2091,
+    "name": "Cải Trang Lý Tiểu Nương đường phố",
+    "type": 5,
+    "gender": 3,
+    "description": "Vật phẩm sự kiện",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17633,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2092,
+    "name": "Hỏa tiêm thương",
+    "type": 11,
+    "gender": 3,
+    "description": "Vật phẩm sự kiện (chỉ dành cho đệ tử 2)",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 13852,
+    "part": 136,
     "isUpToUp": false
   }
 ]
