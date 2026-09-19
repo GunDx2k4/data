@@ -120,6 +120,12 @@
     "Port": 14446
   },
   {
+    "Id": 22,
+    "ServerName": "Võ đài liên vũ trụ",
+    "Host": "dragonwar.teamobi.com",
+    "Port": 20000
+  },
+  {
     "Id": 21,
     "ServerName": "Universe 1",
     "Host": "dragon.indonaga.com",
