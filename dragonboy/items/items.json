@@ -8917,7 +8917,7 @@
   },
   {
     "id": 743,
-    "name": "Chổi bay Phù Thủy",
+    "name": "Chổi Rơm Bay",
     "type": 23,
     "gender": 3,
     "description": "Bay không tốn KI",
@@ -25232,6 +25232,66 @@
     "level": 1,
     "strRequire": 0,
     "iconId": 17710,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2103,
+    "name": "Đeo lưng 3 con ma",
+    "type": 11,
+    "gender": 3,
+    "description": "Vật phẩm sự kiện",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17760,
+    "part": 184,
+    "isUpToUp": false
+  },
+  {
+    "id": 2104,
+    "name": "Cải trang tiểu thư Malfoy",
+    "type": 5,
+    "gender": 3,
+    "description": "Vật phẩm sự kiện",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17788,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2105,
+    "name": "Hộp Ngọc Rồng Bí",
+    "type": 27,
+    "gender": 3,
+    "description": "Vật phẩm sự kiện",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 16895,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2106,
+    "name": "Mảnh Broly",
+    "type": 33,
+    "gender": 3,
+    "description": "Vật phẩm sự kiện",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17798,
+    "part": -1,
+    "isUpToUp": false
+  },
+  {
+    "id": 2107,
+    "name": "Con dấu VIP",
+    "type": 27,
+    "gender": 3,
+    "description": "Vật phẩm sự kiện",
+    "level": 1,
+    "strRequire": 0,
+    "iconId": 17805,
     "part": -1,
     "isUpToUp": false
   }
